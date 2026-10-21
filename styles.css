@@ -20,3 +20,19 @@
 @media(max-width:1000px){.hero-v3-layout{gap:35px;grid-template-columns:1.1fr .9fr}.hero-v3 h1{font-size:clamp(4rem,7vw,6.2rem)}.pov-layout,.diagnostic-layout{gap:55px}.industry-list a strong{font-size:1.4rem}}
 @media(max-width:760px){.hero-v3-layout{grid-template-columns:1fr;padding-top:75px;padding-bottom:85px}.hero-v3 h1{font-size:clamp(4.1rem,13vw,6.7rem)}.hero-v3-graphic{transform:none;min-height:350px;max-width:510px;margin:20px auto 0;width:100%}.hero-v3-graphic:before{right:-8px;top:17px;bottom:-10px}.client-rail-layout{grid-template-columns:1fr 1fr;gap:10px 15px;padding-top:26px;padding-bottom:26px}.rail-intro{grid-column:span 2}.rail-client{padding:8px 0 8px 10px}.pov-layout,.diagnostic-layout,.industries-intro{grid-template-columns:1fr;gap:35px}.pov-section,.v3-services,.diagnostic,.work-section,.industries-v3,.operator-v3,.contact-v3{padding-top:75px;padding-bottom:75px}.v3-services-heading,.work-header,.work-bottom{display:block}.v3-services-heading>p,.work-header>p{margin-top:22px}.service-line{grid-template-columns:38px 1fr 30px;gap:12px}.service-link{font-size:0}.service-link:after{content:'↗';font-size:1.3rem}.work-feature-grid{grid-template-columns:1fr}.work-copy>p{min-height:0}.work-bottom .text-link{margin-top:17px}.industry-list{grid-template-columns:1fr}.operator-layout{grid-template-columns:1fr;gap:0}.operator-mark{font-size:8rem;height:80px;margin:0}.diagnostic-board{margin-top:15px}.v3-section-end{flex-direction:column;align-items:flex-start}.contact-v3-card{min-height:0}.hero-bottom-rail{justify-content:flex-start;gap:15px;font-size:.59rem}}
 @media(max-width:430px){.hero-v3 h1{font-size:clamp(3.4rem,14vw,4.3rem)}.hero-v3-layout{padding-top:58px;padding-bottom:55px}.diagram-center{gap:8px}.diagram-node{min-height:95px;padding:10px 5px;font-size:.55rem}.diagram-node span{font-size:.64rem}.hero-v3-graphic{min-height:0;padding:15px}.diagram-center{padding:25px 0}.client-rail-layout{grid-template-columns:1fr}.rail-intro{grid-column:auto}.rail-client{border-left:0;border-top:1px solid #d4ded4;padding:13px 0}.pov-section h2,.v3-services h2,.work-header h2,.industries-v3 h2,.operator-v3 h2,.contact-v3 h2{font-size:clamp(2.8rem,12vw,4.2rem)}.service-line strong{font-size:1.5rem}.industry-list a strong{font-size:1.3rem}.diagnostic-board{padding:22px}.board-row{grid-template-columns:1fr;gap:6px}.work-copy{padding:26px}.work-stat{display:block}.work-stat span{display:block;margin-top:7px}.vantage-feature-mark{width:92%}}
+
+
+/* Approved client branding on case-study cards */
+.case-brand-top{min-height:190px;display:flex;align-items:center;justify-content:space-between;flex-direction:column;padding:21px!important;gap:14px}
+.case:nth-child(1) .case-top.vantage-case-top{background:#e8ebe7!important;color:#1c3829}
+.case:nth-child(3) .case-top.lava-case-top{background:linear-gradient(120deg,#322173,#1d164a 70%,#153b64)!important;color:#d6d1f0}
+.case-brand-top>a{flex:1;display:flex;align-items:center;justify-content:center;width:100%}
+.case-brand-top .case-tag{align-self:flex-start;color:inherit}
+.case-client-logo{display:inline-flex;align-items:center;justify-content:center;transition:transform .2s}
+.case-client-logo:hover{transform:translateY(-2px)}
+.case-client-logo img{object-fit:contain;max-width:100%;height:auto}
+.vantage-client-logo{width:min(340px,90%);min-height:85px;padding:18px;background:#fff;border:1px solid #d2dcd2}
+.vantage-client-logo img{width:100%}
+.lava-client-logo img{width:100px;max-width:100px;border-radius:7px;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.case-client-name{color:#adf0c4;text-decoration:underline;text-underline-offset:4px}
+.case-detail>.text-link{margin:0 0 24px}
