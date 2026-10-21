@@ -24,11 +24,18 @@ The website has no database and no runtime API requirements. Commits to the prod
 ## Launch checklist
 
 - [ ] Review the design on the live preview on desktop and mobile.
-- [ ] Approve case-study client names and result figures before publishing; do not publicly identify the two confidential clients.
-- [ ] Replace the temporary `mailto:nd@wnatemedia.com` contact CTA with the real GHL booking URL, or confirm that mailbox exists. **This email address has not been verified.**
-- [ ] Add the final full horizontal logo lockup to the brand assets if desired; the current site incorporates the original vector brand mark.
+- [x] LAVA and Vantage Peptides name, logo, and website-link permissions confirmed by owner. Two other clients remain confidential. Case study outcome figures should be reviewed for final accuracy.
+- [x] Primary booking CTAs link to https://link.roimachine.us/widget/bookings/wnm-get-in-touch (public booking calendar tested for availability).
+- [x] With Nate Media vector brand mark and approved LAVA/Vantage client logos integrated. Optional: swap in the horizontal corporate lockup where appropriate.
 - [ ] Review privacy requirements if forms, analytics, pixels, or cookies are added.
 
 Client stories are summaries rather than direct testimonial quotes. Results are specific to each engagement and not promises of future performance. The estimated $3M Lava.ai opportunity is **not** booked/realized revenue.
 
 No client-owned partnership badges or designations have been attributed to With Nate Media.
+
+## October 2026 consulting homepage refresh
+
+- Reframed the homepage around a strong systems-first point of view and consulting delivery.
+- Alternating editorial sections, service rows, white client logo rail, green strategy assessment panel, and featured brand case studies for visual variety.
+- Services/Industries/Client Results remain separate pages, with working cross-page links and approved client links.
+- All primary CTAs go directly to the 30-minute With Nate Media Get In Touch booking calendar.
